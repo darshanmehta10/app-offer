@@ -36,7 +36,7 @@ And produces the following output:
 {
   "id": 1,
   "name": "Toothpaste Offer",
-  "description": "Toothpaste and Toothbrush combo",
+  "description": "Toothpaste and Toothbrush combo super saver offer",
   "price": 10,
   "currency": "GBP",
   "products": [
@@ -47,7 +47,7 @@ And produces the following output:
     },
     {
       "id": 2,
-      "name": "Tooth brush",
+      "name": "Toothbrush",
       "company": "Signal"
     }
   ]
