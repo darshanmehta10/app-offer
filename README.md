@@ -185,6 +185,50 @@ curl -X GET "http://localhost:8585/offers"
 curl -X GET "http://localhost:8585/offers?sort=id,desc&page=0&size=5"
 ```
 
+Example GET response
+```javascript
+{
+  "content": [
+    {
+      "id": 1,
+      "name": "Toothpaste offer",
+      "description": "Toothpaste and Toothbrush combo super saver offer",
+      "price": 10,
+      "currency": "GBP",
+      "products": [
+        {
+          "id": 1,
+          "name": "Toothpaste",
+          "company": "Signal"
+        },
+        {
+          "id": 2,
+          "name": "Tooth brush",
+          "company": "Signal"
+        }
+      ]
+    }
+  ],
+  "totalElements": 1,
+  "totalPages": 1,
+  "last": true,
+  "size": 10,
+  "number": 0,
+  "sort": [
+    {
+      "direction": "ASC",
+      "property": "id",
+      "ignoreCase": false,
+      "nullHandling": "NATIVE",
+      "ascending": true,
+      "descending": false
+    }
+  ],
+  "numberOfElements": 1,
+  "first": true
+}
+```
+
 ## Installation
 
 To install the app, run through the following steps:
