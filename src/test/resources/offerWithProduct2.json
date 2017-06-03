@@ -1,0 +1,16 @@
+{
+	"name" : "Offer 2",
+	"description" : "Offer 2",
+	"currency": "GBP",
+	"price": 10,
+	"products" : [
+		{
+			"name" : "Product 3",
+			"company" : "Company 3"
+		},
+		{
+			"name" : "Product 4",
+			"company" : "Company 4"
+		}
+	]
+}
